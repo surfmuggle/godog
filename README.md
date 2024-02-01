@@ -131,14 +131,14 @@ func InitializeScenario(ctx *godog.ScenarioContext) {
         ctx.Then(`^there should be (\d+) remaining$`, thereShouldBeRemaining)
 }
 ```
-
+Load the packages with `go get github.com/cucumber/godog` 
 Our module should now look like this:
 ```
 godogs
 - features
   - godogs.feature
 - go.mod
-- go.sum
+- go.sum 
 - godogs_test.go
 ```
 
